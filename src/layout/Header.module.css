@@ -1,0 +1,50 @@
+.header{
+    display: flex;
+    height: 96px;
+    justify-content: space-around;
+    align-items: center;
+}
+.header__navbar__lista{
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+}
+.inputSearch{
+    box-sizing: border-box;
+    height: 48px;
+    background: rgba(242, 240, 240, 0.58);
+    border: 1px solid #D9D9D9;
+    border-radius: 12px;
+    width: 291px;
+}
+.InputAndButton{
+    display: flex;
+    justify-content: space-around;
+    width: 42%;
+}
+.buttonsOut{
+    cursor: pointer;
+    font-family: 'Inter';
+    font-weight: 400;
+}
+.AnchorButtonsOut{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
+    width: 50%;
+}
+.ingresar{
+    background-color: #D9D9D9;
+    padding: 8px 32px;
+    gap: 8px;
+    border-radius: 6px;
+}
+.header__navbar__lista__logo{
+    font-family: 'Inter';
+    font-weight: 800;
+}
+.header__navbar__lista li a{
+    font-family: 'Lexend Deca';
+    font-weight: 400;
+}

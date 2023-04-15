@@ -6,13 +6,23 @@
 
 *{
   margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
 
 body{
 
 }
-
+a{
+  color: #787878;
+}
+li a{
+  color: #787878;
+  text-decoration: none;
+}
+ul{
+  list-style: none;
+}
 h2{
 
 }

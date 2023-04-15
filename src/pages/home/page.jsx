@@ -1,11 +1,17 @@
 import React from 'react'
+import Header from '../../layout/Header'
+import Slide from './components/Slide';
+import style from './Home.module.css'
+import CardAuth from './components/Cardauth';
 
 const Home = () => {
   return (
-    <div>
-      <h2>Home</h2>
-    </div>
+    <>
+      <Header />
+      <Slide />
+      <CardAuth />
+    </>
   )
 }
 
-export default Home
+export default Home;

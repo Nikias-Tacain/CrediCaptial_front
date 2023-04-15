@@ -6,6 +6,8 @@ import Home from './pages/home/page'
 import Register from './pages/register/page'
 import Login from './pages/login/page'
 import { Navigate } from 'react-router-dom'
+import './layout/Header.module.css';
+
 
 export const App = () => {
   return (
